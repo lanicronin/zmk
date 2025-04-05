@@ -9,6 +9,10 @@ on:
     paths:
       - ".github/workflows/build.yml"
       - "app/**"
+  workflow_dispatch:
+    paths:
+      - ".github/workflows/build.yml"
+      - "app/**"
   schedule:
     - cron: "22 4 * * *"
 
